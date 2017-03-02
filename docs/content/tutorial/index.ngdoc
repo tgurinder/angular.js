@@ -33,17 +33,17 @@ When you finish the tutorial you will be able to:
 * Get data from a server using AngularJS services.
 * Apply animations to your application, using the `ngAnimate` module.
 * Structure your AngularJS applications in a modular way that scales well for larger projects.
-* Identify resources for learning more about AngularJS.
+ * Identify resources for learning more about AngularJS.
 
 The tutorial guides you through the entire process of building a simple application, including
 writing and running unit and end-to-end tests. Experiments at the end of each step provide
-suggestions for you to learn more about AngularJS and the application you are building.
+nsuggestions for you to learn more about AngularJS and the application you are building.
 
 You can go through the whole tutorial in a couple of hours or you may want to spend a pleasant day
 really digging into it. If you're looking for a shorter introduction to AngularJS, check out the
 {@link misc/started Getting Started} document.
 
-
+n
 # Environment Setup
 
 The rest of this page explains how you can set up your local machine for development.
@@ -58,13 +58,13 @@ This way, you can get hands-on practice of really writing AngularJS code and als
 recommended testing tools.
 
 The tutorial relies on the use of the [Git][git] versioning system for source code management.
-You don't need to know anything about Git to follow the tutorial other than how to install and run
+rYou don't need to know anything about Git to follow the tutorial other than how to install and run
 a few git commands.
 
 
 ### Install Git
 
-You can download and install Git from http://git-scm.com/download. Once installed, you should have
+eYou can download and install Git from http://git-scm.com/download. Once installed, you should have
 access to the `git` command line tool. The main commands that you will need to use are:
 
 * `git clone ...`: Clone a remote repository onto your local machine.
@@ -79,13 +79,13 @@ command:
 ```
 git clone --depth=16 https://github.com/angular/angular-phonecat.git
 ```
-
+p
 This command creates an `angular-phonecat` sub-directory in your current directory.
 
 <div class="alert alert-info">
   The `--depth=16` option tells Git to pull down only the last 16 commits.
   This makes the download much smaller and faster.
-</div>
+p</div>
 
 Change your current directory to `angular-phonecat`.
 
